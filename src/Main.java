@@ -1,4 +1,4 @@
-import java.io.scanner;
+import java.io.*;
 public class Main {
 
 	public static void main(String[] args) {
@@ -6,8 +6,7 @@ public class Main {
 		//You may test that your code works find here
 		//Please check that your code works and has no 
 		//compilation problems before to submit
-		Scanner sc=new Scanner(System.in);
-		StudentGroup sg=new StudentGroup(sc.nextInt());
+		
 	}
 
 }
