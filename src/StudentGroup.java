@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.io.*;
 
 /**
  * A fix-sized array of students
@@ -57,7 +58,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getStudent(int index) throws IllegalArgumentException {
 		// Add your implementation here
-		if([index]<0||index>=students.length)
+		if(index<0||index>=students.length)
 		return null;
 		else
 		return students[index];
@@ -75,36 +76,31 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void addFirst(Student student) {
 		// Add your implementation here
-		LinkedList lin=LinkedList(Student students);
-		lin.addFirst(student);
+		
 	}
 
 	@Override
 	public void addLast(Student student) {
 		// Add your implementation here
-		LinkedList lin=LinkedList(Student students);
-		lin.addLast(student);
+		
 	}
 
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
-		LinkedList lin=LinkedList(Student students);
-		lin.add(student,index);
+		
 	}
 
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
-		LinkedList lin=LinkedList(Student students);
-		lin.remove(students[index]);
+		
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
-		LinkedList lin=LinkedList(Student students);
-		lin.remove(students[index]);
+		
 	}
 
 	@Override
